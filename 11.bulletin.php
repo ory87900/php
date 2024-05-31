@@ -1,5 +1,5 @@
 <?php
-    error_reporting(0); # 0 =關閉php錯誤報告
+    error_reporting(0);
     session_start();
     if (!$_SESSION["id"]) {
         echo "請先登入";
